@@ -6,6 +6,16 @@
   box-sizing: border-box;
 }
 
+body,
+html,
+.container-construction {
+  min-height: 100vh;
+}
+
+.container-construction {
+  background-color: bisque;
+}
+
 .top {
   background-color: #9b59b6;
   font-family: sans-serif;
