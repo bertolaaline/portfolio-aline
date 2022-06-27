@@ -14,6 +14,27 @@ html,
   min-height: 100vh;
 }
 
+.container-construction {
+  background: var(--gradient-top);
+}
+
+.top {
+  background-color: #9b59b6;
+  font-family: sans-serif;
+}
+
+.foto {
+height: auto;
+width: 500px;
+margin: 20px;
+}
+
+.titulo {
+  margin: auto;
+}
+
+
+
 html {
   scroll-behavior: smooth;
 }
