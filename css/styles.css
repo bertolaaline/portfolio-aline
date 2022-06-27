@@ -33,8 +33,6 @@ margin: 20px;
   margin: auto;
 }
 
-
-
 html {
   scroll-behavior: smooth;
 }
@@ -112,6 +110,8 @@ a:hover {
   padding-bottom: 3em;
   align-items: baseline;
   flex-wrap: wrap;
+  background-color: #fff;
+  color: #007EA7;
 }
 
 figcaption {
@@ -123,8 +123,9 @@ figcaption {
   margin-top: 2em;
   filter: opacity(50%) grayscale(100%);
   transition: filter 500ms;
-  text-align: center;
+  text-align: center; 
 }
+
 .itens figure:active,
 .itens figure:hover {
   filter: opacity(100%) grayscale(0);
