@@ -14,25 +14,6 @@ html,
   min-height: 100vh;
 }
 
-.container-construction {
-  background: var(--gradient-top);
-}
-
-.top {
-  background-color: #9b59b6;
-  font-family: sans-serif;
-}
-
-.foto {
-height: auto;
-width: 500px;
-margin: 20px;
-}
-
-.titulo {
-  margin: auto;
-}
-
 html {
   scroll-behavior: smooth;
 }
@@ -41,20 +22,12 @@ body {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
-  font-size: 16px;
-  background-color: #fff;
-  color: #000;
-  font-family: 'Poppins', sans-serif;
-}
-
-.topo {
-  background-color: #003249;
-}
-
-body {
-  display: block;
   text-align: center;
   background-color: #75c3cf;
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+  color: #000;
+  
 }
 
 .menu li {
@@ -69,17 +42,17 @@ body {
 }
 
 a, a:hover, a:active, a:visited {
-  /* text-decoration: none;
+  text-decoration: none;
   color: #007EA7;
   border: solid 4px #003249;
   margin: 10px 0;
-  box-shadow:0px 0px 0px 10px #75c3cf inset; */
+  box-shadow:0px 0px 0px 10px #75c3cf inset;
 
 }
 
 a:hover {
   background-color: #75c3cf;
-  border: solid 8px #003249;
+  /* border: solid 8px #003249; */
 
 }
 
@@ -89,13 +62,54 @@ a:hover {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: left;
+  padding-top: 15rem;
 }
 
 .avatar img {
-  border-radius: 20px;
+  border-radius: 50%;
   width: 30%;
   float: left;
+}
+
+.img-portfolio {
+  width: 80px;
+}
+
+.portfolio {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  min-height: 100vh;
+  justify-content: center;
+}
+
+.itens {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding-bottom: 3em;
+  align-items: baseline;
+  flex-wrap: wrap;
+}
+
+figcaption {
+  text-align: center;
+  text-decoration: none;
+}
+
+.itens figure {
+  margin-top: 2em;
+  filter: opacity(50%) grayscale(100%);
+  transition: filter 500ms;
+  text-align: center;
+}
+.itens figure:active,
+.itens figure:hover {
+  filter: opacity(100%) grayscale(0);
+}
+.itens a{
+  padding: 0 20px;
 }
 
 .separador {
@@ -106,7 +120,7 @@ a:hover {
   justify-content: center;
   align-items: center;
   color: #fff;
-  padding: 0 2em;
+  padding-bottom: 15rem;
   /* clip-path: polygon(0 15%, 100% 0%, 100% 85%, 0% 100%); */
 }
 
@@ -118,8 +132,13 @@ nav {
   top: 0;
   width: 100vw;
 }
+
 .menu a {
   display: block;
   padding: 10px 20px;
   transition: color 100ms;
+}
+
+.carrossel {
+  min-height: 100vh;
 }
