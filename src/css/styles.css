@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Mochiy+Pop+One&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.topbar {
+  @apply flex justify-between items-center w-full;
+  @apply py-8 px-4;
+  @apply bg-secondary text-secondary-content;
+}
+
+.logo {
+  font-family: 'Mochiy Pop One', sans-serif;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+
+  @apply text-3xl;
+}
+
+.fotinha {
+  width: 50px;
+}
+
+.fotinha > img {
+  border-radius: 25px;
+  filter: drop-shadow(0 0 1px #5c000c);
+}
+
+.menu {
+  @apply uppercase;
+}
+
+.foto-aline {
+  min-height: 80vh;
+  background-image: url("src/img/background.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  
+  @apply w-full;
+}
+
+.frase-de-efeito {
+  min-height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  font-family: 'Mochiy Pop One', sans-serif;
+
+  @apply w-full;
+  @apply bg-secondary text-secondary-content text-center;
+  @apply py-16 px-4;
+}
+
+
+.formacao {
+  height: 400px;
+  @apply bg-error-content;
+}
+
+.portfolio {
+  @apply bg-neutral-focus;
+  @apply flex flex-col justify-center items-center;
+}
+
+.title {
+  @apply text-3xl text-center my-8;
+}
+
+.card {
+  width: 200px;
+  padding: 10px;
+  background-color: white;
+  margin: 20px;
+  box-shadow: 10px 10px;
+}
+
+.contato {
+  height: 400px;
+  @apply bg-base-100;
+}

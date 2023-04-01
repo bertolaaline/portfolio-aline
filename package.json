@@ -1,0 +1,30 @@
+{
+  "name": "portfolio-aline",
+  "version": "1.0.0",
+  "description": "site pessoal",
+  "main": "portifolio.js",
+  "scripts": {
+    "dev": "vite --host",
+    "build": "vite build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bertolaaline/portfolio-aline.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bertolaaline/portfolio-aline/issues"
+  },
+  "homepage": "https://github.com/bertolaaline/portfolio-aline#readme",
+  "devDependencies": {
+    "autoprefixer": "^10.4.13",
+    "postcss": "^8.4.20",
+    "tailwindcss": "^3.2.4",
+    "vite": "^4.0.4"
+  },
+  "dependencies": {
+    "cypress": "^12.3.0",
+    "daisyui": "^2.46.1"
+  }
+}
